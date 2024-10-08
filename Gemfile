@@ -19,7 +19,6 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"  # Adds SEO metadata tags to your site
   gem "jekyll-paginate" # Pagination for blog posts
   gem "jekyll-archives" # Support for archive pages (e.g., for categories)
-  gem "jekyll-admin"    # Provides an admin interface for editing
 end
 
 # Uncomment this if you're deploying on GitHub Pages

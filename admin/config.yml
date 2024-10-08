@@ -6,6 +6,7 @@ backend:
   repo: SandeshNilasKhatiwada/test-cms
   branch: main # Branch to update (optional; defaults to master)
   client_id: Ov23lilGKrJlXPR9fFhS
+publish_mode: editorial_workflow
 media_folder: "assets"
 public_folder: "/uploads/"
 
