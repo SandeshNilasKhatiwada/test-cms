@@ -5,6 +5,7 @@ backend:
   name: "github"
   repo: SandeshNilasKhatiwada/test-cms
   branch: main # Branch to update (optional; defaults to master)
+  client_id: Ov23lilGKrJlXPR9fFhS
 media_folder: "assets"
 public_folder: "/uploads/"
 
