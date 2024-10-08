@@ -1,0 +1,17 @@
+# config.yml
+
+backend:
+  name: "file-system"
+  #branch: main # Branch to update (optional; defaults to master)
+media_folder: "assets"
+public_folder: "/uploads/"
+
+collections:
+  - name: "post"
+    label: "Post"
+    folder: "_posts/"
+    fields:
+      - { label: "Title", name: "title", widget: "string" } # Title field
+      - { label: "Publish Date", name: "date", widget: "datetime" } # Publish date
+      - { label: "Body", name: "body", widget: "markdown" } # Body content
+      - { label: "Tags", name: "tags", widget: "list", required: false } # Optional tags
