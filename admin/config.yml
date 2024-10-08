@@ -1,8 +1,10 @@
 # config.yml
 
 backend:
+  backend:
   name: "github"
-  #branch: main # Branch to update (optional; defaults to master)
+  repo: SandeshNilasKhatiwada/test-cms
+  branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets"
 public_folder: "/uploads/"
 
